@@ -1,0 +1,65 @@
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+.header-title span {
+  color: white;
+  font-family: "Kelly Slab";
+  font-size: 24px;
+  position: fixed;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+.header-title {
+  position: absolute;
+}
+.header {
+  background: red;
+  width: 100%;
+  position: fixed;
+  display: flex;
+  top: 0;
+  height: 7%;
+}
+
+.header-container ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  float: right;
+  margin-left: 10px;
+}
+.right-container ul {
+  list-style-type: none;
+  display: flex;
+  float: right;
+}
+.nav-item {
+  z-index: 2;
+  margin-right: 15px;
+}
+.nav-item-right {
+  position: absolute;
+  z-index: 2;
+  right: 0;
+  margin-right: 2%;
+}
+.header-container a {
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+}
+.right-container a {
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+}
+.header-container a:hover {
+  color: #ff6666;
+}
+.right-container a:hover {
+  color: #ff6666;
+}
